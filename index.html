@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Contact_Form</title>
+</head>
+
+<body>
+    <div class="contact-container">
+        <form method="POST" id="form" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get In Touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="37bf65b1-9db5-4d2a-a9ca-1f09c6a5c44f">
+            <input type="text" name="name" placeholder="Your Name Please" class="contact-input" required>
+            <input type="email" name="email" placeholder="Your Email Please" class="contact-input" required>
+            <input type="text" name="subject" placeholder="Subject" class="contact-input" required>
+            <textarea name="message" id="" placeholder="Your Message" class="contact-input" required></textarea>
+            <button type="submit"> Submit</button>
+            <div id="result"></div>
+        </form>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
